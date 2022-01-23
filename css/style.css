@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-a, h1{
+a, h1, p{
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -60,7 +60,7 @@ main img{
     width: 100%;
 }
 
-main h1{
+main h1, p{
     color: #ffff00;
     font-size: 40px;
     text-align: center;
@@ -81,3 +81,18 @@ main h1{
 #article3 h1{
     color: #008000;
 }
+
+p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(25deg);
+    animation: mymove 2s infinite;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+@keyframes mymove {
+    50% {transform-origin: 0 0 0;}
+}
+
