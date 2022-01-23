@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-button, h1{
+a, h1{
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -31,6 +31,7 @@ header a{
     border: none;
     text-decoration: none;
     background-color: white;
+    text-shadow: 2px 0px 2px red;
 }
 
 
